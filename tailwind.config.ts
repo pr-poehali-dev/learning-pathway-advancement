@@ -6,7 +6,7 @@ export default {
 		"./pages/**/*.{ts,tsx}",
 		"./components/**/*.{ts,tsx}",
 		"./app/**/*.{ts,tsx}",
-		"./src/**/*.{ts,tsx}",
+		"./src/**/*.{ts,tsx}"
 	],
 	prefix: "",
 	theme: {
@@ -67,6 +67,10 @@ export default {
 				lg: 'var(--radius)',
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
+			},
+			backgroundImage: {
+				'gradient-primary': 'linear-gradient(135deg, #9b87f5 0%, #D946EF 50%, #F97316 100%)',
+				'gradient-card': 'linear-gradient(135deg, rgba(155, 135, 245, 0.1) 0%, rgba(217, 70, 239, 0.1) 100%)'
 			},
 			keyframes: {
 				'accordion-down': {
